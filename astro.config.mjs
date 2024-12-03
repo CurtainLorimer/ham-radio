@@ -17,7 +17,7 @@ export default defineConfig({
       enabled: true
     }
   }),
-  site: 'https://whiskey.fm',
+  site: 'https://ham.curtainlorimer.com',
   integrations: [
     db(),
     preact(),
