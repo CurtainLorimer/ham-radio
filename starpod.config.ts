@@ -3,7 +3,7 @@ import { defineStarpodConfig } from 'src/utils/config';
 export default defineStarpodConfig({
   blurb: 'A creative writing prompt, fun facts, and history in a minute (maybe two)',
   description:
-    'Veteran web developers RobbieTheWagner and Charles William Carpenter III host this informal, whiskey-fueled fireside chat with your favorite web devs. They discuss all things web development including JavaScript, TypeScript, EmberJS, React, Astro, SolidJS, CSS, HTML, Web3, and more. They take a unique approach and focus on getting to know the human side of developers and their hobbies outside of work, all while sampling a new whiskey that they rate on their unique tentacle scale.',
+    'Lex Wu and Jayden Alip host a weekly podcast featuring a creative writing prompt, fun facts, and history in a minute or two. Aimed for people who want to learn a few fun facts while enjoying their weekend writing, or parents who just want their kids to do something on the weekends.',
   hosts: [
     {
       name: 'Lex Wu',
@@ -14,7 +14,7 @@ export default defineStarpodConfig({
       website: 'https://lexwu.com'
     },
     {
-      name: 'Charles William Carpenter III',
+      name: 'Jayden Alip',
       bio: 'Third of his name, user of gifs, hater of ESM.',
       img: 'chuckcarpenter.jpg',
       github: 'https://github.com/chuckcarpenter',
