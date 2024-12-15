@@ -1,6 +1,5 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import ContactForm from '../components/ContactForm';
 ---
 
 <Layout title="Contact">
@@ -15,7 +14,14 @@ import ContactForm from '../components/ContactForm';
       Have a question for us or a topic you would like us to cover on the show?
       Reach out here and we'll be in touch soon!
     </p>
-
-    <ContactForm client:load />
+    <div class="mt-8 flex justify-center pb-16">
+      <a href="mailto:lwu@curtainlorimer.com">
+          <button class="btn">
+            <span class="rounded-full px-8 py-4 text-center text-sm text-light-text-heading dark:text-white">
+              Email Lex
+            </span>
+          </button>
+        </a>
+        </div>
   </div>
 </Layout>

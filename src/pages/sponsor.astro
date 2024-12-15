@@ -12,11 +12,11 @@ const countryFlags = import.meta.glob<{ default: ImageMetadata }>(
 );
 
 const countries = [
-  { name: 'United States', flag: 'USA.png', percentage: 52 },
-  { name: 'United Kingdom', flag: 'UK.png', percentage: 7 },
-  { name: 'Canada', flag: 'Canada.png', percentage: 5 },
-  { name: 'Germany', flag: 'Germany.png', percentage: 4 },
-  { name: 'Australia', flag: 'Australia.png', percentage: 4 }
+  { name: 'United States', flag: 'USA.png', percentage: 0 },
+  { name: 'United Kingdom', flag: 'UK.png', percentage: 0 },
+  { name: 'Canada', flag: 'Canada.png', percentage: 0 },
+  { name: 'Germany', flag: 'Germany.png', percentage: 0 },
+  { name: 'Australia', flag: 'Australia.png', percentage: 0 }
 ];
 ---
 
@@ -29,22 +29,22 @@ const countries = [
     </h1>
 
     <p class="mb-5">
-      Want to dazzle a crowd of tech nerds and whiskey connoisseurs? Throw your
-      brand into the mix! Our listeners love innovation, good banter, and a
-      stiff drink—so get in on the fun and make some magic happen. Stay classy,
-      sponsor.
+      Numbers are not accurate and we're not accepting sponsorships at this time. This was simply part of the template
+      website I used and I'd like to keep this template just in case we do find interest in sponsorships. 
+
+      - Lex
     </p>
 
     <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
       <AdPackageCard
         bullets={['Host read ad', '10% off for 3+', '20% off for 6+']}
         heading="30 second ad"
-        price="$500"
+        price="$N/A"
       />
       <AdPackageCard
         bullets={['Host read ad', '10% off for 3+', '20% off for 6+']}
         heading="60 second ad"
-        price="$1,000"
+        price="$N/A"
       />
     </div>
 
@@ -61,7 +61,7 @@ const countries = [
         <span
           class="text-6xl font-bold tabular-nums text-light-text-heading dark:text-white"
         >
-          1,000
+          N/A
         </span>
 
         <figcaption class="mt-2 font-bold">listeners per episode</figcaption>
@@ -71,7 +71,7 @@ const countries = [
         <span
           class="text-6xl font-bold tabular-nums text-light-text-heading dark:text-white"
         >
-          15,000
+          N/A
         </span>
 
         <figcaption class="mt-2 font-bold">listeners per 90 days</figcaption>
